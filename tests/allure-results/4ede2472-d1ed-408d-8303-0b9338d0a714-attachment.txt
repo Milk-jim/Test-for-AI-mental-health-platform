@@ -1,0 +1,6 @@
+WARNING  selenium.webdriver.common.selenium_manager:selenium_manager.py:138 Exception managing chrome: error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)
+INFO     utils.driver_factory:driver_factory.py:29 ✅ 已启动 chrome 浏览器 (headless=False)
+INFO     ui_tests.pages.base_page:base_page.py:23 打开页面: http://localhost:5173/auth/login
+INFO     ui_tests.pages.base_page:base_page.py:69 输入文本到 ('css selector', "input[placeholder='请输入用户名']"): admin
+INFO     ui_tests.pages.base_page:base_page.py:69 输入文本到 ('css selector', "input[placeholder='请输入密码']"): wrong_password_xxx
+INFO     ui_tests.pages.base_page:base_page.py:62 点击元素: ('css selector', '.login-btn')
